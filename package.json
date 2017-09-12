@@ -1,7 +1,7 @@
 {
-  "name": "@polkajs/skeleton-module",
+  "name": "@polkajs/aes-compress",
   "version": "1.0.4",
-  "description": "When creating new modules, use this skeletal structure",
+  "description": "Compress the input data, then encrypt for faster and lighter message transfer",
   "main": "index.js",
   "scripts": {
     "lint+build+test": "yarn run lint && yarn run build && yarn run test",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PolkaJS/skeleton-module.git"
+    "url": "git+https://github.com/PolkaJS/aes-compress.git"
   },
   "author": "Craig OConnor",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PolkaJS/skeleton-module/issues"
+    "url": "https://github.com/PolkaJS/aes-compress/issues"
   },
-  "homepage": "https://github.com/PolkaJS/skeleton-module#readme",
+  "homepage": "https://github.com/PolkaJS/aes-compress#readme",
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-eslint": "^7.2.3",
@@ -31,5 +31,11 @@
     "eslint": "^4.0.0",
     "flow-bin": "^0.48.0",
     "tape": "^4.6.3"
+  },
+  "dependencies": {
+    "aes-js": "^3.1.0",
+    "compression": "^1.7.0",
+    "snappy": "^6.0.1",
+    "zlib": "^1.0.5"
   }
 }

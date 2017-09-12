@@ -1,19 +1,17 @@
-# skeleton-module [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![Greenkeeper badge](https://badges.greenkeeper.io/PolkaJS/skeleton-module.svg)](https://greenkeeper.io/)
+# aes-compress [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url] [![Greenkeeper badge](https://badges.greenkeeper.io/PolkaJS/aes-compress.svg)](https://greenkeeper.io/)
 
-[travis-image]: https://travis-ci.org/PolkaJS/skeleton-module.svg?branch=master
-[travis-url]: https://travis-ci.org/PolkaJS/skeleton-module
-[npm-image]: https://img.shields.io/npm/v/@polkajs/skeleton-module.svg
-[npm-url]: https://npmjs.org/package/@polkajs/skeleton-module
-[downloads-image]: https://img.shields.io/npm/dm/@polkajs/skeleton-module.svg
-[downloads-url]: https://npmjs.org/package/@polkajs/skeleton-module
+[travis-image]: https://travis-ci.org/PolkaJS/aes-compress.svg?branch=master
+[travis-url]: https://travis-ci.org/PolkaJS/aes-compress
+[npm-image]: https://img.shields.io/npm/v/@polkajs/aes-compress.svg
+[npm-url]: https://npmjs.org/package/@polkajs/aes-compress
+[downloads-image]: https://img.shields.io/npm/dm/@polkajs/aes-compress.svg
+[downloads-url]: https://npmjs.org/package/@polkajs/aes-compress
 
 ## About
 
-**Create new modules with this skeleton**
+Compress the input data, then encrypt for message transfer
 
-`git clone https://github.com/PolkaJS/skeleton-module.git`
-
-`git remote rm origin`
+Automate the process of breaking the data into chunks after compression is complete
 
 ---
 
